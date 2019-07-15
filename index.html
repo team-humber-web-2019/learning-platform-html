@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Learning Platform: Test Interface</title>
+    <meta name="description" content="Prototype interface for a learning platform">
+    <meta name="author" content="Rocco Panacci">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="layout type-all">
+      <nav class="layout-nav">
+        <div class="nav-user">
+          <a href="#" class="user-btn btn"><img src="https://thispersondoesnotexist.com/image" alt="Random face"></a>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#" class="btn menu-btn material-icons type-all active">home</a></li>
+          <li><a href="#" class="btn menu-btn material-icons type-announcement">announcement</a></li>
+          <li><a href="#" class="btn menu-btn material-icons type-assignment">assignment</a></li>
+          <li><a href="#" class="btn menu-btn material-icons type-chat">question_answer</a></li>
+          <li><a href="#" class="btn menu-btn material-icons type-grade">check_circle</a></li>
+        </ul>
+      </nav>
+      <main class="layout-primary">
+        <header class="primary-header">
+          <h1 class="course-name">Web Development 1</h1>
+          <dl class="course-meta">
+            <dt>Course Code</dt>
+            <dd>ABC123</dd>
+            <dt>Next Class</dt>
+            <dd>Tues, June 8th, 2024</dd>
+          </dl>
+        </header>
+        <section class="primary-content">
+          <ul class="content-day elevation" data-content="Three days ago">
+            <li class="content-item type-assignment">
+              <div class="item-main">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta voluptas pariatur eius inventore architecto magni tempora nam velit qui similique modi, sint quia nihil? Soluta debitis asperiores consequuntur voluptate alias.</p>
+              </div>
+              <footer class="item-meta">
+                <div class="meta-category">Assignment 3 <span class="material-icons">assignment</span></div>
+                <ul class="meta-tags">
+                  <li class="meta-tag">html</li>
+                  <li class="meta-tag">css</li>
+                  <li class="meta-tag">javascript</li>
+                </ul>
+              </footer>
+            </li>
+            <li class="content-item type-chat">
+              <div class="item-main">
+                <figure class="chat-face">
+                  <img src="https://thispersondoesnotexist.com/image" alt="Random face">
+                </figure>
+                <blockquote class="chat-text">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta voluptas pariatur eius inventore architecto magni tempora nam velit qui similique modi, sint quia nihil? Soluta debitis asperiores consequuntur voluptate alias.</p>
+                </blockquote>
+              </div>
+              <footer class="item-meta">
+                <h2 class="meta-category">Grace Hopper <span class="material-icons">question_answer</span></h2>
+                <ul class="meta-tags">
+                  <li class="meta-tag">😂</li>
+                  <li class="meta-tag">🔥</li>
+                  <li class="meta-tag">🐳</li>
+                </ul>
+              </footer>
+            </li>
+            <li class="content-item type-announcement">
+              <div class="item-main">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta voluptas pariatur eius inventore architecto magni tempora nam velit qui similique modi, sint quia nihil? Soluta debitis asperiores consequuntur voluptate alias.</p>
+              </div>
+              <footer class="item-meta">
+                <div class="meta-category">Class Cancelled <span class="material-icons">announcement</span></div>
+                <ul class="meta-tags"></ul>
+              </footer>
+            </li>
+          </ul>
+          <ul class="content-day elevation" data-content="Yesterday">
+            <li class="content-item type-grade">
+              <div class="item-main">
+                <p>Overall, nice work! Still needs some improvement on the semantic HTML side of things.</p>
+                <footer>Grade: <strong>14 / 20</strong></footer>
+              </div>
+              <footer class="item-meta">
+                <div class="meta-category">Assignment 2 <span class="material-icons">announcement</span></div>
+                <ul class="meta-tags">
+                  <li class="meta-tag">html</li>
+                  <li class="meta-tag">css</li>
+                </ul>
+              </footer>
+            </li>
+            <li class="content-item type-chat">
+              <div class="item-main">
+                <figure class="chat-face">
+                  <img src="https://thispersondoesnotexist.com/image" alt="Random face">
+                </figure>
+                <blockquote class="chat-text">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta voluptas pariatur eius inventore architecto magni tempora nam velit qui similique modi, sint quia nihil? Soluta debitis asperiores consequuntur voluptate alias.</p>
+                </blockquote>
+              </div>
+              <footer class="item-meta">
+                <h2 class="meta-category">Alan Turing <span class="material-icons">question_answer</span></h2>
+                <ul class="meta-tags">
+                  <li class="meta-tag">❤️</li>
+                </ul>
+              </footer>
+            </li>
+            <li class="content-item type-chat">
+              <div class="item-main">
+                <figure class="chat-face">
+                  <img src="https://thispersondoesnotexist.com/image" alt="Random face">
+                </figure>
+                <blockquote class="chat-text">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta voluptas pariatur eius inventore architecto magni tempora nam velit qui similique modi, sint quia nihil? Soluta debitis asperiores consequuntur voluptate alias.</p>
+                </blockquote>
+              </div>
+              <footer class="item-meta">
+                <h2 class="meta-category">Tim Berners-Lee <span class="material-icons">question_answer</span></h2>
+                <ul class="meta-tags"></ul>
+              </footer>
+            </li>
+          </ul>
+        </section>
+        <footer class="primary-footer">
+          Copyright
+        </footer>
+      </main>
+    </div>
+    
+    <script src="js/script.js" type="text/javascript"></script>
+  </body>
+</html>
